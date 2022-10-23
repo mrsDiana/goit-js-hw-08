@@ -6,7 +6,7 @@ const refs = {
 };
 
 refs.form.addEventListener('submit', onFormSubmit);
-refs.form.addEventListener('input', throttle(onTextareaInput, 5000));
+refs.form.addEventListener('input', throttle(onTextareaInput, 500));
 refs.inputTxt.setAttribute("required", 'true');
 refs.textarea.setAttribute("required", 'true');
 
